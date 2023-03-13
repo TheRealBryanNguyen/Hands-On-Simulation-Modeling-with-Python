@@ -24,7 +24,7 @@ for p in range(N):
 
 Pi = 4*M/N
 
-print("N=%d M=%d Pi=%.2f" %(N,M,Pi))
+print("N=%d M=%d Pi=%.10f" %(N,M,Pi))
 
 XLin=np.linspace(0,1)
 YLin=[]
